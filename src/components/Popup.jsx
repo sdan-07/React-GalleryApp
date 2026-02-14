@@ -16,7 +16,7 @@ const Popup = (props) => {
         </p>
 
         <button
-          className="px-3 py-3 rounded-xl border-3 border-red-700 bg-red-600 hover:transition-all cursor-pointer hover:bg-red-500 text-xl"
+          className="px-3 py-3 rounded-xl border-3 border-red-700 bg-red-600 hover:transition-all cursor-pointer hover:bg-red-500 text-md md:text-xl"
           onClick={ClickingButton}
         >
           OK, got it!

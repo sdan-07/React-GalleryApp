@@ -28,7 +28,7 @@ const App = () => {
     <>
       <Popup btnClick = {[isClicked, setIsClicked]} />
       
-      <div className="mt-12">        
+      <div className= {`${isClicked ? "block" : "hidden"} mt-12`}>         
           <h1 className="text-center lobster-two-bold-italic text-5xl!">
             Galleria
           </h1>
