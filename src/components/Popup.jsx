@@ -11,8 +11,7 @@ const Popup = (props) => {
     >
       <div className="box bg-gray-600 mx-20 px-12 py-16 rounded-2xl flex flex-col justify-center items-center">
         <p className="text-md lg:text-lg mb-8">
-          This site <span className="italic font-bold">Galleria</span> uses API
-          calling feature which shows randomly fetched images
+          This site <span className="italic font-bold">Galleria</span> uses a fake API to show randomly fetched images
         </p>
 
         <button
